@@ -88,3 +88,11 @@ footer{
     background-color: #f2f4ff ;
     margin: 2em;
 }
+
+#webs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 15em;
+}
