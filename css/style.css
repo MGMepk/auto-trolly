@@ -10,18 +10,27 @@ html{
 
 nav{
     background-color: #f2f4ff ;
-    margin: 2em;
-    display: flex;
-    justify-content: end;
+    /* display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: nowrap; */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    width: 100%;
 }
 
-nav>ul{
+#navig{
     display: flex;
     flex-direction: row;
+    justify-items: right;
     justify-content: space-between;
-    align-content: center;
-    padding: 1em;
-    width: 20%;
+    width:25%;
+}
+
+nav>div>a{
+    text-decoration: none;
+    color: black;
 }
 
 main{
@@ -48,7 +57,8 @@ main>div>h1{
 
 main>img{
     display: block;
-    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -87,6 +97,7 @@ form>ul{
 footer{
     background-color: #f2f4ff ;
     margin: 2em;
+    padding-left: 2em;
 }
 
 #webs{
@@ -95,4 +106,10 @@ footer{
     justify-content: space-between;
     align-content: center;
     width: 15em;
+}
+
+footer>h3>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
