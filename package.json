@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "name": "auto-trolly",
+  "description": "Aquest projecte es trata de crear una página web per promocionar el producte \"auto-trolley\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MGMepk/auto-trolly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MGMepk/auto-trolly/issues"
+  },
+  "homepage": "https://github.com/MGMepk/auto-trolly#readme"
+}
