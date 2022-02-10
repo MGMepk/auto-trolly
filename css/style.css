@@ -50,6 +50,14 @@ li{
     text-align: center;
 }
 
+#eslogan{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
 main>div>h1{
     text-align: center;
     margin-left: 2em;
