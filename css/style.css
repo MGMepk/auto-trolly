@@ -64,14 +64,19 @@ main>div>h1{
     margin-left: 2em;
 }
 
-main>img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#img_trolly{
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#img_trolly>img{
+    width: 100%;
+    height: auto;
 }
 
 
-#description{
+.content{
     background-color: #f2f4ff ;
     padding-left: 2em;
     padding-top: 1em;
@@ -80,19 +85,15 @@ main>img{
     margin: 1em;
 }
 
-#caract{
-    background-color: #f2f4ff ;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    margin:1em;
+#free_cont {
+    width: 98%;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
-#free{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#free {
+    width: 100%;
+    height: auto;
 }
 
 #form{
@@ -169,7 +170,7 @@ footer{
         display: grid;
         gap: 1em;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 2fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     html{
@@ -185,8 +186,6 @@ footer{
         justify-content: center;
         align-items: center;
       }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 961px){
@@ -196,8 +195,6 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 2fr);
     }
-
-
 }
 
 @media (min-width: 1024px){
