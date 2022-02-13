@@ -10,26 +10,30 @@ const requestListener = (req, resp) => {
     let url = "";
     let type = path.extname(req.url);
 
-    switch (type){
+    switch (type) {
         case ".html":
             resp.setHeader('Content-Type', 'text/html');
-            url = "."+req.url;
+            url = "." + req.url;
             break;
         case ".css":
             resp.setHeader('Content-Type', 'text/css');
-            url = "."+req.url;
+            url = "." + req.url;
             break;
         case ".jpg":
             resp.setHeader('Content-Type', 'image/jpeg');
-            url = "."+req.url;
+            url = "." + req.url;
             break;
         case ".png":
             resp.setHeader('Content-Type', 'image/png');
-            url = "."+req.url;
+            url = "." + req.url;
             break;
         case ".mp4":
             resp.setHeader('Content-Type', 'video/mp4');
-            url = "."+req.url;
+            url = "." + req.url;
+            break;
+        case ".js":
+            resp.setHeader('Content-Type', 'text/javascript');
+            url = "." + req.url;
             break;
         default:
             resp.setHeader('Content-Type', 'text/html');
@@ -37,12 +41,12 @@ const requestListener = (req, resp) => {
             break;
     }
     console.log(req.url);
-    
-    if(url != ""){
-        if(fs.existsSync(url)){
+
+    if (url != "") {
+        if (fs.existsSync(url)) {
             resp.write(fs.readFileSync(url));
         } else {
-        resp.write(fs.readFileSync("index.html","utf-8"));
+            resp.write(fs.readFileSync("index.html", "utf-8"));
         }
     }
 
