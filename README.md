@@ -21,8 +21,8 @@ Aquest projecte es trata de crear una página web per promocionar el producte "a
 
 <h2>Estil de font</h2>
 
-<h3 font-family='Verdana, Geneva, sans-serif'>General: Verdana, Geneva, sans-serif</h3>
+<h3><font face="verdana">General: Verdana, Geneva, sans-serif</font></h3>
 
-<h3 font-family='Arial Black, Gadget, sans-serif'> H2: 'Arial Black', Gadget, sans-serif</h3>
+<h3><font face="arial"> H2: 'Arial Black', Gadget, sans-serif</font></h3>
 
-<h3 font-family='Times New Roman, Times, serif'>Eslogan: 'Times New Roman', Times, serif </h3>
+<h3><font face="Times New Roman">Eslogan: 'Times New Roman', Times, serif </font> </h3>
