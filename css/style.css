@@ -5,6 +5,12 @@ html {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+#marca {
+    font-size: 0.6em;
+    text-align: center;
+    font-style: italic;
+}
+
 .respmenu a {
     color: black;
     text-decoration: none;
@@ -127,7 +133,7 @@ form>ul {
     justify-content: space-between;
     align-content: center;
     margin-top: 1em;
-    width: 15em;
+    width: 14em;
     height: fit-content;
 }
 
@@ -233,17 +239,52 @@ form>ul {
     }
 }
 
-@media (min-width: 768px) and (max-width: 961px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     #grid {
         display: grid;
         gap: 1em;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 2fr);
     }
+
+    #title>h1 {
+        display: inherit;
+        text-shadow: 0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+    }
+
+    #grid>img {
+        width: 290px;
+        height: 180px;
+        border: 1px solid #f2f4ff;
+    }
 }
 
 @media (min-width: 1024px) {
     #title>h1 {
         display: inherit;
+        text-shadow: 0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+
     }
 }
