@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto-Trolly</title>
+    <script src="https://kit.fontawesome.com/4a87360503.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
-    <nav>
-        <div id="navig">
-            <a href="#description">Descripción</a>
-            <a href="#caract">Características</a>
-            <a href="#contact">Contacto</a>
-        </div>
-    </nav>
+    <div class="respmenu">
+        <input type="checkbox">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+            <ul>
+                <li><a href="#description">Descripción</a></li>
+                <li><a href="#caract">Características</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <div id="title">
             <img src="style_notes/logo.png" alt="logo" />
@@ -53,7 +59,7 @@
         <img id="free" src="imgs/istockphoto-freeshipping.jpg" alt="envios" />
     </div>
     <div id="form" class="content">
-        <h1>Formulario:</h1>
+        <h2>Formulario:</h2>
         <p>Si te interesa nuestro producto puedes registrarte y recibirás un e-mail cuando el producto esté disponible
         </p>
         <form>
@@ -84,4 +90,5 @@
         </div>
     </footer>
 </body>
+
 </html>

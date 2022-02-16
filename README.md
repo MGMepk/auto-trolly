@@ -20,3 +20,9 @@ Aquest projecte es trata de crear una página web per promocionar el producte "a
 <img src="https://raw.githubusercontent.com/MGMepk/auto-trolly/main/style_notes/Logo.png" alt="Logo" style="width:50%">
 
 <h2>Estil de font</h2>
+
+<h3 font-family='Verdana, Geneva, sans-serif'>General: Verdana, Geneva, sans-serif</h3>
+
+<h3 font-family='Arial Black, Gadget, sans-serif'> H2: 'Arial Black', Gadget, sans-serif</h3>
+
+<h3 font-family='Times New Roman, Times, serif'>Eslogan: 'Times New Roman', Times, serif </h3>
