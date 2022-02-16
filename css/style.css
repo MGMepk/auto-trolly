@@ -248,7 +248,7 @@ footer {
     nav>ul {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: right;
         list-style-type: none;
     }
 }
