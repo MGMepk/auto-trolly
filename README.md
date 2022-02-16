@@ -26,3 +26,4 @@ Aquest projecte es trata de crear una página web per promocionar el producte "a
 <h3><font face="arial"> H2: 'Arial Black', Gadget, sans-serif</font></h3>
 
 <h3><font face="Times New Roman">Eslogan: 'Times New Roman', Times, serif </font> </h3>
+<p>Font size: 2em</p>
