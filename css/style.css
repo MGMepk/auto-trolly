@@ -19,11 +19,11 @@ html {
     max-width: 200px;
     background: #f2f4ff;
     font-variant: small-caps;
-    text-shadow: 1px 1px #3e7cb1;
 }
 
 a:hover {
     border-bottom: 2px solid #3e7cb1;
+    text-shadow: 1px 1px #3e7cb1;
 }
 
 .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
@@ -46,7 +46,6 @@ nav>ul {
     flex-direction: row;
     justify-items: right;
     justify-self: right;
-    margin-right: 2em;
     justify-content: space-between;
     list-style-type: none;
 }
@@ -69,7 +68,6 @@ nav>ul {
     font-weight: bold;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    padding-right: 1em;
     border: 1px solid black;
 }
 
