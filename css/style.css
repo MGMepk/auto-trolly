@@ -5,6 +5,18 @@ html {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+#volver{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    z-index: 2;
+    font-size: 20px;
+}
+
 #marca {
     font-size: 0.6em;
     text-align: center;
