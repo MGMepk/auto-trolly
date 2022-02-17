@@ -19,9 +19,9 @@ Pàgina única amb enllaç a diferents seccions de la mateixa.
 <h2>Paleta de colors</h2>
 
 <img src="https://raw.githubusercontent.com/MGMepk/auto-trolly/main/style_notes/auto-trolly_palette.png" alt="Paleta de colors" style="width:45%">
-Blau per al fons de la pàgina.
-Gris per al fons de les seccions.
-Negre per al color de les fonts.
+<p>Blau per al fons de la pàgina.</p>
+<p>Gris per al fons de les seccions.</p>
+<p>Negre per al color de les fonts.</p>
 
 <h2>Logo</h2>
 <img src="https://raw.githubusercontent.com/MGMepk/auto-trolly/main/style_notes/Logo.png" alt="Logo" style="width:50%">
